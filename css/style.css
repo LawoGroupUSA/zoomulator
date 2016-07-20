@@ -1,0 +1,30 @@
+.ref {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.scaler {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  opacity: .8;
+  background-color: green;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/280710/1000_gridbox.png");
+  background-size: cover;
+  transform-origin: 60px 60px;
+  transform: scale(0.2) translate(-300px, -300px);
+}
+
+.scaler:hover {
+  transform: scale(0.4) translate(-150px, -150px);
+}
+
+.scaler:active {
+  transform: scale(2) translate(-30px, -30px);
+}
